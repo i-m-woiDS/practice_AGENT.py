@@ -22,7 +22,7 @@ def ai_agent_brain(raw_application_text):
     NAME: [Name] | SKILL: [Skill] | LANGUAGE: [Languages spoken]
     """
     
-    # We use gemini-2.5-flash as the global developer tier standard
+    
     response = client.models.generate_content(
         model='gemini-3.6-flash',
         contents=prompt
