@@ -3,7 +3,7 @@ from google import genai
 from google.genai import types
 
 # Initialize the Gemini Client 
-# It reads the GEMINI_API_KEY from your environment variables automatically
+# here It reads the GEMINI_API_KEY from your environment variables automatically
 client = genai.Client()
 
 def ai_agent_brain(raw_application_text):
